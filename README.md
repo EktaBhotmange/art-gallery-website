@@ -96,3 +96,13 @@ POST   /api/contacts
 ---
 
 **Built with ❤️ using the MERN Stack**
+
+## 🌱 My MERN Journey
+
+This project has been an important part of my journey with the **MERN stack**. I started with the basics of React and gradually learned how to connect the frontend with **Node.js, Express.js, and MongoDB**.
+
+While building Artify, I learned how real-world applications handle **REST APIs, database operations, authentication, protected routes, forms, and frontend-backend communication**.
+
+This project helped me move beyond simply learning technologies and understand how different parts of a full-stack application work together. 🚀
+
+> **Started with React. Built with MERN. Still learning, still building.**
