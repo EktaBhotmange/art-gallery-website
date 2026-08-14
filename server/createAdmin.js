@@ -6,16 +6,14 @@ const Admin = require("./models/Admin");
 
 async function createAdmin() {
   try {
-    // Connect to MongoDB
+
     await mongoose.connect(process.env.MONGO_URI);
 
-    // Hash password
     const hashedPassword = await bcrypt.hash(
       "Rukvant@2026",
       10
     );
 
-    // Check if admin already exists
     const existingAdmin = await Admin.findOne({
       email: "b.ektaa20@gmail.com",
     });
@@ -25,7 +23,6 @@ async function createAdmin() {
       process.exit();
     }
 
-    // Create admin
     const admin = new Admin({
       email: "b.ektaa20@gmail.com",
       password: "Rukvant@2026",
